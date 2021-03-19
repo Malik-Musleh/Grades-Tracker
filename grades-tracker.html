@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="./grades-tracker.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="grades-tracker.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <title>Grades-Tracker</title>
+</head>
+<body>
+    <div class="nav">Grades-Tracker </div>
+    <div class="containar">
+        <div class="form">
+            <h2>Add New Student </h2>
+            <input placeholder="student" id="name" type="text" required>
+            <input  placeholder="grade" id="grade"  type="text" required >
+            <input  placeholder="speciality" id="speciality"  type="text">
+            <button onclick="add()" >Submit</button>
+        </div>
+        <ul class="students_list" id="list">
+            <h2>Students List </h2>
+
+        </ul>
+</div>
+
+    
+</body>
+</html>
